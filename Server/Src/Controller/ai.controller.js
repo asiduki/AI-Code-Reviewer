@@ -1,5 +1,5 @@
 import express from "express";
-import generateContent from "../Service/ai.service"; 
+import generateContent from "../Service/ai.service.js"; 
 
 export const codereviewer = async (req , res)=> {
     const prompt = req.body.prompt;
