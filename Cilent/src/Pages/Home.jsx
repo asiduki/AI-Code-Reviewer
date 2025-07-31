@@ -29,8 +29,7 @@ const Home = () => {
                 }
             }
         }
-        console.log(Text);
-        console.log(Result)
+      
 
   return (
     <>
