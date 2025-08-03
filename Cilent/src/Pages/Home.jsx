@@ -33,13 +33,16 @@ const Home = () => {
 
   return (
     <>
-    <div>
-        <button onClick={ApiCall}>Review</button>
-        <textarea value={Text} onChange={handlechange} className='p-2 w-[50%]' placeholder='Write here'>
-        </textarea>
-    </div>
-    <div>
-        {Result}
+    <div className='w-full py-4 px-2 flex '>
+       <div className='w-[50%] h-[600px]'>
+        <textarea name="" id="" className='resize-none w-[95%] h-[99%] border rounded-lg py-2 px-1 outline-none' placeholder='Paste Your test here.....'></textarea>
+       </div>
+       <div className='w-[50%]'>
+        {/* output box */}
+        <div>
+            
+        </div>
+       </div>
     </div>
     </>
   )
